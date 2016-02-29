@@ -2,7 +2,7 @@ addons:
   artifacts:
     debug: true
     paths: [libs.zip, build.zip]
-    target_paths: bb5ab305-531a-4ba0-bec0-cfe995166ac3
+    target_paths: 4a5f6f13-d2a0-4270-83de-945e57457266
 after_success: ./build/deploy.sh;./df-build.sh
 env:
   global:
@@ -11,4 +11,4 @@ env:
   - {secure: V6LDBTjvwoCZzGuiHaABmre6JpMguVU3E9Db4Hy0xivmcQeQ4R7L3ehXdx6QvBYhIWZe2YvL4JyGQplx+TJN+ckLeApVxFp0tBH/ACY1WWgP9yDBJodMESsC2G84YFlzuumZoa68KD3uUe/e8I01rxmJEgu8RNqGBqwvhnTgKy0=}
 jdk: [openjdk7, oraclejdk7]
 language: java
-# Modified by Insights Service at 2016-02-28 11:09:54.011497
+# Modified by Insights Service at 2016-02-29 06:53:36.148459
